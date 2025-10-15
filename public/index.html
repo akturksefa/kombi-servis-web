@@ -1,33 +1,126 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="theme-color" content="#1e3c72" />
+    
+    <!-- SEO Meta Tags -->
+    <title>Burak Isı Sistemleri - Kombi Satışı ve Teknik Servis | İstanbul</title>
+    <meta name="description" content="Burak Isı Sistemleri - İstanbul'da kombi satışı, teknik servis, bakım hizmetleri. 15+ yıl deneyim, 7/24 servis, garanti. Uygun fiyat, kaliteli hizmet." />
+    <meta name="keywords" content="kombi satışı, kombi servisi, teknik servis, kombi bakımı, İstanbul kombi, kombi montajı, kombi tamiri, ısı sistemleri, burak ısı sistemleri" />
+    <meta name="author" content="Burak Isı Sistemleri" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Burak Isı Sistemleri - Kombi Satışı ve Teknik Servis" />
+    <meta property="og:description" content="İstanbul'da kombi satışı, teknik servis ve bakım hizmetleri. 15+ yıl deneyim, 7/24 servis, garanti." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://burakisisistemleri.com" />
+    <meta property="og:image" content="%PUBLIC_URL%/og-image.jpg" />
+    <meta property="og:locale" content="tr_TR" />
+    <meta property="og:site_name" content="Burak Isı Sistemleri" />
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Burak Isı Sistemleri - Kombi Satışı ve Teknik Servis" />
+    <meta name="twitter:description" content="İstanbul'da kombi satışı, teknik servis ve bakım hizmetleri. 15+ yıl deneyim, 7/24 servis, garanti." />
+    <meta name="twitter:image" content="%PUBLIC_URL%/twitter-image.jpg" />
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="geo.region" content="TR-34" />
+    <meta name="geo.placename" content="İstanbul" />
+    <meta name="geo.position" content="41.0082;28.9784" />
+    <meta name="ICBM" content="41.0082, 28.9784" />
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Burak Isı Sistemleri",
+      "description": "Kombi satışı ve teknik servis hizmeti",
+      "url": "https://burakisisistemleri.com",
+      "telephone": "+905551234567",
+      "email": "info@burakisisistemleri.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Merkez Mahallesi, Isı Sistemleri Sokak No:123",
+        "addressLocality": "Beşiktaş",
+        "addressRegion": "İstanbul",
+        "postalCode": "34353",
+        "addressCountry": "TR"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      },
+      "openingHours": "Mo-Fr 08:00-18:00,Sa 09:00-15:00",
+      "priceRange": "$$",
+      "paymentAccepted": "Cash, Credit Card",
+      "currenciesAccepted": "TRY",
+      "areaServed": "İstanbul",
+      "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+          "@type": "GeoCoordinates",
+          "latitude": 41.0082,
+          "longitude": 28.9784
+        },
+        "geoRadius": "50000"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Kombi Hizmetleri",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Kombi Satışı",
+              "description": "Kaliteli kombi markalarının satışı"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Teknik Servis",
+              "description": "Kombi arıza tespiti ve onarımı"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Bakım Hizmetleri",
+              "description": "Periyodik kombi bakımı"
+            }
+          }
+        ]
+      }
+    }
+    </script>
+    
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    
+    <!-- Preconnect to external domains -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://burakisisistemleri.com" />
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <noscript>
+      <p>Bu web sitesi JavaScript gerektirir. Lütfen tarayıcınızda JavaScript'i etkinleştirin.</p>
+      <p>Burak Isı Sistemleri - Kombi satışı ve teknik servis hizmetleri</p>
+      <p>Telefon: +90 555 123 45 67</p>
+      <p>E-posta: info@burakisisistemleri.com</p>
+    </noscript>
     <div id="root"></div>
     <!--
       This HTML file is a template.

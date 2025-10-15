@@ -1,70 +1,139 @@
-# Getting Started with Create React App
+# Burak Isı Sistemleri - Kombi Satışı ve Teknik Servis Web Sitesi
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Modern, mobil uyumlu ve SEO optimizasyonlu React web sitesi.
 
-## Available Scripts
+## 🚀 Özellikler
 
-In the project directory, you can run:
+- **Modern Tasarım**: Responsive ve kullanıcı dostu arayüz
+- **SEO Optimizasyonu**: Meta taglar, structured data ve semantic HTML
+- **Mobil Uyumlu**: Tüm cihazlarda mükemmel görünüm
+- **WhatsApp Entegrasyonu**: Sabit WhatsApp butonu ve form entegrasyonu
+- **Google Haritası**: Konum gösterimi ve harita entegrasyonu
+- **Servis Talep Formu**: Detaylı servis talep formu
+- **Hızlı Yükleme**: Optimize edilmiş performans
 
-### `npm start`
+## 📱 Sayfalar
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Ana Sayfa**: Hero section, hizmet özeti, neden bizi seçin
+- **Hakkımızda**: Şirket hikayesi, değerler, ekip
+- **Hizmetler**: Kombi satışı, teknik servis, bakım hizmetleri
+- **İletişim**: İletişim bilgileri, harita, mesaj formu
+- **Referanslar**: Müşteri yorumları, güven göstergeleri
+- **Servis Talebi**: Detaylı servis talep formu
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Kurulum
 
-### `npm test`
+### Gereksinimler
+- Node.js (v14 veya üzeri)
+- npm veya yarn
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Adımlar
 
-### `npm run build`
+1. **Projeyi klonlayın**
+   ```bash
+   git clone <repository-url>
+   cd burak-isi-sistemleri
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. **Bağımlılıkları yükleyin**
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. **Environment variables ayarlayın**
+   ```bash
+   # .env dosyası oluşturun
+   REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key_here
+   REACT_APP_SITE_URL=https://burakisisistemleri.com
+   REACT_APP_PHONE_NUMBER=+905551234567
+   REACT_APP_EMAIL=info@burakisisistemleri.com
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. **Geliştirme sunucusunu başlatın**
+   ```bash
+   npm start
+   ```
 
-### `npm run eject`
+5. **Tarayıcıda açın**
+   ```
+   http://localhost:3000
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🚀 Production Build
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm run build
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Build dosyaları `build/` klasöründe oluşturulur.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📦 Kullanılan Teknolojiler
 
-## Learn More
+- **React 18**: Modern React hooks ve functional components
+- **React Router**: Sayfa yönlendirme
+- **React Icons**: İkonlar
+- **Google Maps API**: Harita entegrasyonu
+- **CSS3**: Modern CSS özellikleri ve Grid/Flexbox
+- **Responsive Design**: Mobil-first yaklaşım
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🔧 Konfigürasyon
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Google Maps API
+1. [Google Cloud Console](https://console.cloud.google.com/) hesabı oluşturun
+2. Maps JavaScript API'yi etkinleştirin
+3. API anahtarını oluşturun
+4. `.env` dosyasında `REACT_APP_GOOGLE_MAPS_API_KEY` değişkenini ayarlayın
 
-### Code Splitting
+### WhatsApp Entegrasyonu
+- Telefon numarasını `src/components/WhatsAppButton.js` dosyasında güncelleyin
+- Varsayılan mesajı özelleştirin
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### SEO Ayarları
+- `public/index.html` dosyasındaki meta tagları güncelleyin
+- Structured data'yı şirket bilgilerinize göre düzenleyin
 
-### Analyzing the Bundle Size
+## 📱 Mobil Uyumluluk
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Responsive tasarım
+- Touch-friendly butonlar
+- Mobil menü
+- Optimize edilmiş görseller
+- Hızlı yükleme süreleri
 
-### Making a Progressive Web App
+## 🔍 SEO Özellikleri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Meta title ve description
+- Open Graph tags
+- Twitter Card tags
+- Structured data (JSON-LD)
+- Semantic HTML
+- Alt tags ve accessibility
+- Canonical URLs
+- Sitemap hazır
 
-### Advanced Configuration
+## 📞 İletişim Bilgileri
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Web sitesinde kullanılan iletişim bilgileri:
 
-### Deployment
+- **Telefon**: +90 555 123 45 67
+- **E-posta**: info@burakisisistemleri.com
+- **Adres**: Merkez Mahallesi, Isı Sistemleri Sokak No:123, Beşiktaş, İstanbul
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 📄 Lisans
 
-### `npm run build` fails to minify
+Bu proje özel kullanım içindir.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Katkıda Bulunma
+
+1. Fork yapın
+2. Feature branch oluşturun (`git checkout -b feature/AmazingFeature`)
+3. Commit yapın (`git commit -m 'Add some AmazingFeature'`)
+4. Push yapın (`git push origin feature/AmazingFeature`)
+5. Pull Request oluşturun
+
+## 📝 Notlar
+
+- Google Maps API anahtarı için ücretli hesap gerekebilir
+- Production'da HTTPS kullanın
+- Görselleri optimize edin
+- Analytics entegrasyonu ekleyebilirsiniz

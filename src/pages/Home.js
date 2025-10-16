@@ -14,9 +14,9 @@ const Home = () => {
             Kaliteli hizmet anlayışımızla evinizin ısı ihtiyaçlarını karşılıyoruz.
           </p>
           <div className="cta-buttons">
-            <Link to="/servis-talebi" className="btn btn-primary">
-              <FaPhone /> Servis Talebi
-            </Link>
+            <a href="tel:+905374915736" className="btn btn-primary">
+              <FaPhone /> Hemen Ara
+            </a>
             <Link to="/hizmetler" className="btn btn-secondary">
               Hizmetlerimiz
             </Link>
@@ -118,10 +118,10 @@ const Home = () => {
             Kombi ihtiyaçlarınız için uzman ekibimizle iletişime geçin
           </p>
           <div className="cta-buttons">
-            <a href="tel:+905551234567" className="btn btn-primary">
+            <a href="tel:+905374915736" className="btn btn-primary">
               <FaPhone /> Hemen Ara
             </a>
-            <a href="https://wa.me/905551234567" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+            <a href="https://wa.me/905374915736" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               <FaPhone /> WhatsApp
             </a>
           </div>

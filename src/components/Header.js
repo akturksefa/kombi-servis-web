@@ -38,9 +38,6 @@ const Header = () => {
             <Link to="/iletisim" className={isActive('/iletisim')} onClick={() => setIsMenuOpen(false)}>
               İletişim
             </Link>
-            <Link to="/servis-talebi" className={isActive('/servis-talebi')} onClick={() => setIsMenuOpen(false)}>
-              Servis Talebi
-            </Link>
           </nav>
           
           <button className="mobile-menu-btn" onClick={toggleMenu}>

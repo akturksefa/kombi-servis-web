@@ -22,7 +22,6 @@ const Footer = () => {
               <Link to="/hizmetler">Hizmetler</Link>
               <Link to="/referanslar">Referanslar</Link>
               <Link to="/iletisim">İletişim</Link>
-              <Link to="/servis-talebi">Servis Talebi</Link>
             </div>
           </div>
           
@@ -31,7 +30,7 @@ const Footer = () => {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <FaPhone />
-                <a href="tel:+905551234567">+90 555 123 45 67</a>
+                <a href="tel:+905374915736">+90 537 491 57 36</a>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <FaEnvelope />
@@ -39,11 +38,11 @@ const Footer = () => {
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <FaMapMarkerAlt />
-                <span>Merkez Mahallesi, Isı Sistemleri Sokak No:123, İstanbul</span>
+                <span>Çakmak, Pınarlı Sk. No:38A, Ümraniye, İstanbul</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                 <FaWhatsapp />
-                <a href="https://wa.me/905551234567" target="_blank" rel="noopener noreferrer">
+                <a href="https://wa.me/905374915736" target="_blank" rel="noopener noreferrer">
                   WhatsApp ile İletişim
                 </a>
               </div>
@@ -59,7 +58,7 @@ const Footer = () => {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" style={{ fontSize: '1.5rem', color: '#e4405f' }}>
                 <FaInstagram />
               </a>
-              <a href="https://wa.me/905551234567" target="_blank" rel="noopener noreferrer" 
+              <a href="https://wa.me/905374915736" target="_blank" rel="noopener noreferrer" 
                  style={{ fontSize: '1.5rem', color: '#25d366' }}>
                 <FaWhatsapp />
               </a>

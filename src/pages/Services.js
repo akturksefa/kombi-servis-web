@@ -1,14 +1,13 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { 
   FaShoppingCart, 
   FaWrench, 
   FaCheckCircle, 
   FaTools, 
   FaPhone, 
-  FaClock,
   FaShieldAlt,
-  FaTruck
+  FaTruck,
+  FaClock
 } from 'react-icons/fa';
 
 const Services = () => {
@@ -241,11 +240,11 @@ const Services = () => {
             Uzman ekibimizle iletişime geçin, size en uygun çözümü sunalım
           </p>
           <div className="cta-buttons">
-            <Link to="/servis-talebi" className="btn btn-primary">
-              <FaPhone /> Servis Talebi
-            </Link>
-            <a href="tel:+905551234567" className="btn btn-secondary">
+            <a href="tel:+905374915736" className="btn btn-primary">
               <FaPhone /> Hemen Ara
+            </a>
+            <a href="https://wa.me/905374915736" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+              <FaPhone /> WhatsApp
             </a>
           </div>
         </div>

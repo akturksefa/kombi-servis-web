@@ -51,7 +51,7 @@ const ServiceRequest = () => {
 
 📝 Notlar: ${formData.notes}`;
 
-    const whatsappUrl = `https://wa.me/905551234567?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/905374915736?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 
@@ -104,7 +104,7 @@ const ServiceRequest = () => {
                 <button onClick={resetForm} className="btn btn-primary">
                   Yeni Talep
                 </button>
-                <a href="tel:+905551234567" className="btn btn-secondary">
+                <a href="tel:+905374915736" className="btn btn-secondary">
                   <FaPhone /> Hemen Ara
                 </a>
               </div>
@@ -350,10 +350,10 @@ const ServiceRequest = () => {
             Acil durumlar için 7/24 hizmet veriyoruz
           </p>
           <div className="cta-buttons">
-            <a href="tel:+905551234567" className="btn btn-primary">
+            <a href="tel:+905374915736" className="btn btn-primary">
               <FaPhone /> Hemen Ara
             </a>
-            <a href="https://wa.me/905551234567" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
+            <a href="https://wa.me/905374915736" target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
               <FaPhone /> WhatsApp
             </a>
           </div>

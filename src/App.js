@@ -9,7 +9,6 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import References from './pages/References';
-import ServiceRequest from './pages/ServiceRequest';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
             <Route path="/hizmetler" element={<Services />} />
             <Route path="/iletisim" element={<Contact />} />
             <Route path="/referanslar" element={<References />} />
-            <Route path="/servis-talebi" element={<ServiceRequest />} />
           </Routes>
         </main>
         <Footer />
